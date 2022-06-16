@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+# 🎆 fireworks 🎆
 
-You can use the [editor on GitHub](https://github.com/fireworkspackage/fireworkspackage.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+![image](https://user-images.githubusercontent.com/68472469/173641512-c4836227-23bc-414b-937e-5df5ec34e855.png)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![dependency - fireworks](https://img.shields.io/badge/dependency-fireworks-blue?logo=python&logoColor=white)
+[![Made with Python](https://img.shields.io/badge/Python->=3.6-blue?logo=python&logoColor=white)](https://python.org "Go to Python homepage")
+![maintained - yes](https://img.shields.io/badge/maintained-yes-blue)
+[![contributions - welcome](https://img.shields.io/badge/contributions-welcome-blue)](/CONTRIBUTING.md "Go to contributions doc")
+[![GitHub tag](https://img.shields.io/github/tag/SwiftyProgrammer690/fireworks?include_prereleases=&sort=semver&color=green)](https://github.com/SwiftyProgrammer690/fireworks/releases/)
+[![License](https://img.shields.io/badge/License-MIT-green)](#licence)
 
-### Markdown
+🎆 Fireworks. A Python Package used for getting data from Github! Also maintained on Github! 🎆
+Maintained by @SwiftyProgrammer690 on github, @SwaritChoudhari on replit.com
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# Getting Started! 🚀🚀🚀
 
-```markdown
-Syntax highlighted code block
+Prequisteries: `pip install urllib`
+First, download the code and then unzip it:
 
-# Header 1
-## Header 2
-### Header 3
+![image](https://user-images.githubusercontent.com/68472469/173430910-b505be5e-bdab-4e12-9fa1-96bbea5397a7.png)
 
-- Bulleted
-- List
+or, clone this in your local engine with `https://github.com/SwiftyProgrammer690/fireworks.git`!
 
-1. Numbered
-2. List
+Now that you have the necessary files to work with this project, let's see what it does!
 
-**Bold** and _Italic_ and `Code` text
+# Using it! ⚒⚒⚒
 
-[Link](url) and ![Image](src)
-```
+First at the beginning of your new python file, add `from src.source import *` to load the files for the package! (If that does not work, please use `pwd` and check where you are and `ls` to know where you should go with `cd`)
+For now, it only has seven main capabilities, but you can make it better because, after all, this is an open source project!
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+| Name(For usage)  | What it does |
+| ------------- | ------------- |
+| `get_org_repositories(org)`  | Get an organizations repos  |
+| `get_user_repositories(user)`  | Get an users repos  |
+| `get_user(user)` | Get a user profile |
+| `get_org(org)` | Get an organizations profile |
+| `get_emoji()` | Gets all the available github emojis and images |
+| `get_repo_branches(user, repo)` | Gets all the branches of a repository |
+| `get_org_projects(org)` | Get organizations projects |
+| `get_repo_pulls(user, repo)` | Get a repos pulls requests |
+| `get_public_gists()` | Get the public gists |
+| `get_gist(gist_id)` | Get a specific gist |
+| `get_user_gists(user)` | Get a users gists |
 
-### Jekyll Themes
+Once you are done writing your program, make sure to run it! ;)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fireworkspackage/fireworkspackage.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+# Contributing! 🤝🤝🤝
 
-### Support or Contact
+We would love the extra support! Feel free to open a pull request!
+To start contributing to this repo, keep in mind, the main code is in the src/source.py and I will create an alike pull request to yours so I can
+update the __pycache__
+Also read the CONTRIBUTING.md page!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Compare:
+
+![final_62a7d5af0f432d00c3ff8bd0_530542](https://user-images.githubusercontent.com/68472469/173475371-efb45b14-dcea-4c12-a998-213fd87e134f.gif)
+
+
+# Support
+
+If you run into any problems, please open an issue on github and I will get back to you as soon as I can!
+
+# Licence
+
+Released under [MIT](/LICENSE) by [@SwiftyProgrammer690](https://github.com/SwiftyProgrammer690).
