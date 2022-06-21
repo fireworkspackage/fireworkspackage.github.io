@@ -1,6 +1,6 @@
 # 🎆 fireworks 🎆
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![image](https://user-images.githubusercontent.com/68472469/173641512-c4836227-23bc-414b-937e-5df5ec34e855.png)
@@ -9,8 +9,6 @@
 ![dependency - fireworks](https://img.shields.io/badge/dependency-fireworks-blue?logo=python&logoColor=white&style=plastic)
 ![Made with Python](https://img.shields.io/badge/Python->=3.6-blue?logo=python&logoColor=white&style=plastic&logo=appveyor)
 ![maintained - yes](https://img.shields.io/badge/maintained-yes-blue?style=plastic&logo=replit)
-[![contributions - welcome](https://img.shields.io/badge/contributions-welcome-blue?style=plastic&logo=replit)](/CONTRIBUTING.md "Go to contributions doc")
-[![GitHub tag](https://img.shields.io/github/tag/SwiftyProgrammer690/fireworks?include_prereleases=&sort=semver&color=green&style=plastic&logo=github)](https://github.com/SwiftyProgrammer690/fireworks/releases/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=plastic&logo=github)](#licence)
 [![CodeQL](https://github.com/SwiftyProgrammer690/fireworks/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/SwiftyProgrammer690/fireworks/actions/workflows/codeql.yml)
 
@@ -30,8 +28,9 @@ Now that you have the necessary files to work with this project, let's see what 
 
 # Using it! ⚒⚒⚒
 
+For the functions below to work, put them inside a print statement!
 First at the beginning of your new python file, add `from src.source import *` to load the files for the package! (If that does not work, please use `pwd` and check where you are and `ls` to know where you should go with `cd`)
-For now, it only has seven main capabilities, but you can make it better because, after all, this is an open source project!
+For now, it only has eighteen main capabilities, but you can make it better because, after all, this is an open source project!
 
 | Name(For usage)  | What it does |
 | ------------- | ------------- |
@@ -49,7 +48,10 @@ For now, it only has seven main capabilities, but you can make it better because
 | `zen()` | Get a random quote from github's API |
 | `octocat()` | Get a random quote from github's octocat! |
 | `check_repo_health(user, repo)` | Get a repos health(Does it have... README, Licence, Code of conduct, Contributing guidelines?) |
-| `check_repo_lang` | Get a repositories languages |
+| `check_repo_lang(user, repo)` | Get a repositories languages |
+| `check_repo_tag(user, repo)` | Get a repositories tags |
+| `check_repo_topic(user, repo)` | Get a repositories topics |
+| `get_public_repo()` | Gets a list of random public repositories |
 
 Once you are done writing your program, make sure to run it! ;)
 
@@ -85,6 +87,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/anonymouse-cmd"><img src="https://avatars.githubusercontent.com/u/79412339?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mousie!</b></sub></a><br /><a href="#design-anonymouse-cmd" title="Design">🎨</a></td>
     <td align="center"><a href="https://my-web.swaritchoudhari.repl.co/"><img src="https://avatars.githubusercontent.com/u/68472469?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Swarit Choudhari</b></sub></a><br /><a href="https://github.com/SwiftyProgrammer690/fireworks/commits?author=SwiftyProgrammer690" title="Code">💻</a> <a href="#question-SwiftyProgrammer690" title="Answering Questions">💬</a> <a href="https://github.com/SwiftyProgrammer690/fireworks/pulls?q=is%3Apr+reviewed-by%3ASwiftyProgrammer690" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://allcontributors.org"><img src="https://avatars.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="#tool-all-contributors" title="Tools">🔧</a></td>
+    <td align="center"><a href="https://github.com/PythonPrashant"><img src="https://avatars.githubusercontent.com/u/68708518?v=4?s=100" width="100px;" alt=""/><br /><sub><b>code code code!</b></sub></a><br /><a href="#blog-PythonPrashant" title="Blogposts">📝</a></td>
   </tr>
 </table>
 
